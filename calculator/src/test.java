@@ -1,0 +1,8 @@
+
+public class test {
+	public static void main(String[] args) {
+		Calculator calc = new Calculator();
+		int result = calc.calculate("1 + 1");
+		System.out.println("Result:" + result);
+	}
+}
